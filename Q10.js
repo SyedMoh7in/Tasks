@@ -1,3 +1,15 @@
+//Solution 1:
+function check()
+{
+let a1=[11,2,4];
+let a2=[4,5,6];
+let a3=[10,8,-12];
+let ans=a1[0]+a2[1]+a3[2]-a1[2]+a2[1]+a3[0];
+console.log(ans);
+}
+check();
+
+//Solution 2:
 function diff(arr) 
 {
     let s1=0;
